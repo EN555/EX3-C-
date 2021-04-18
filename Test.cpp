@@ -14,7 +14,7 @@ using namespace std;
 
 
 TEST_CASE("different dimensions"){
-    ifstream units_file{"units.txt"};
+    ifstream units_file{"units2.txt"};
     NumberWithUnits::read_units(units_file);
     NumberWithUnits a{1,"km"};
     NumberWithUnits b{1,"cm"};
